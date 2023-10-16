@@ -1,0 +1,24 @@
+<scheme name="_@user_One Dark Vivid Italic" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2023-10-01T23:34:48</property>
+    <property name="ide">CLion</property>
+    <property name="ideVersion">2023.2.2.0.0</property>
+    <property name="modified">2023-10-16T14:20:21</property>
+    <property name="originalScheme">One Dark Vivid Italic</property>
+    <property name="partialSave">true</property>
+    <property name="pluginId">com.markskelton.one-dark-theme</property>
+  </metaInfo>
+  <attributes>
+    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="565656" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.ENUM_VARIANT">
+      <value>
+        <option name="FOREGROUND" value="ff7c00" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

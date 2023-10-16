@@ -1,0 +1,16 @@
+com.vecheslav.darculaDarkerTheme
+com.vermouthx.idea
+idea.plugin.protoeditor
+com.markskelton.one-dark-theme
+com.jetbrains.gerryPurpleTheme
+foundation
+mobi.hsz.idea.gitignore
+AceJump
+IdeaVIM
+ca.alexgirard.HarpoonIJ
+com.github.dankinsoid.multicursor
+eu.theblob42.idea.whichkey
+com.github.copilot
+izhangzhihao.rainbow.brackets.lite
+dev.blachut.svelte.lang
+deno

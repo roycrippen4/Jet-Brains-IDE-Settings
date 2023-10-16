@@ -1,0 +1,44 @@
+<templateSet group="C/C++">
+  <template name="out" value="std::cout &lt;&lt; $END$;" description="sets up standard cout" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+  <template name="forof" value="for($END$: ) {&#10;&#10;}" description="for loop on contents" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+  <template name="std" value="std::$END$" description="i don't want to type :: the rest of my life." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
+  <template name="ans" value="std::cout &lt;&lt; &quot;\nday $DAY$ part $PART$ answer: &quot; &lt;&lt; p$PART$_answer &lt;&lt; &quot;\n&quot;;&#10;" description="answer template for AOC" toReformat="false" toShortenFQNames="true">
+    <variable name="DAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PART" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_CPP" value="false" />
+      <option name="OC_EXPRESSION_CPP" value="false" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+  <template name="time" value="const auto start = std::chrono::high_resolution_clock::now();&#10;const auto end = std::chrono::high_resolution_clock::now();&#10;const auto time = end - start;&#10;std::cout &lt;&lt; &quot;day $DAY$ p$PART$_exe time: &quot; &lt;&lt; time &lt;&lt; &quot;\n&quot;;&#10;$END$" description="sets up timer variables to find execution time;" toReformat="false" toShortenFQNames="true">
+    <variable name="DAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PART" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_CPP" value="false" />
+      <option name="OC_EXPRESSION_CPP" value="false" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+  <template name="anst" value="std::cout &lt;&lt; &quot;\nday $DAY$ part $PART$ answer: &quot; &lt;&lt; p$PART$_answer &lt;&lt; &quot;\nExec time: &quot; &lt;&lt; end - start &lt;&lt; &quot;\n&quot;;&#10;" description="answer template for AOC" toReformat="false" toShortenFQNames="true">
+    <variable name="DAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PART" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_CPP" value="false" />
+      <option name="OC_EXPRESSION_CPP" value="false" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+</templateSet>

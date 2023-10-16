@@ -1,0 +1,15 @@
+<templateSet group="JavaScript">
+  <template name="arr" value="($NAME$) =&gt; {$END$}" description="(variable) =&gt; {}" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
